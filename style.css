@@ -1,0 +1,122 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+table {
+  table-layout: fixed;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  /* margin: 25px 0; */
+  border-radius: 20px 20px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border-collapse: collapse;
+}
+
+table th {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+  height: 30;
+}
+table th,
+td {
+  padding: 12px 15px;
+  height: 30;
+}
+
+.act {
+  text-align: center !important;
+}
+
+table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-evenly;
+}
+
+.update,
+.add,
+.home {
+  background-color: #009879;
+  color: white;
+  border: none;
+  height: 25px;
+  transition: all 0.2s ease-in-out;
+}
+
+.add:hover,
+.home:hover {
+  border: 2px solid white;
+  color: white;
+}
+
+.update:hover {
+  box-shadow: 0 5px 15px rgba(0, 152, 121, 1.4);
+}
+
+.delete {
+  background-color: #b8293d;
+  color: white;
+  border: none;
+  height: 25px;
+  transition: all 0.2s ease-in-out;
+}
+
+.delete:hover {
+  box-shadow: 0 5px 15px rgba(184, 41, 61, 1.4);
+}
+
+header {
+  height: 40px;
+  background-color: #00917c;
+  padding-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+nav {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.add,
+.home {
+  background-color: #00917c !important;
+  margin-left: 20px;
+}
+
+h2 {
+  color: #00917c;
+  align-items: center;
+  text-align: center;
+}
+
+.add-link {
+  font-size: 18px;
+  font-weight: bold;
+}
